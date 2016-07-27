@@ -1,0 +1,233 @@
+.affix {
+  background-color: #030204;
+  width: 100%;
+}
+
+.band-members {
+  background-color: #030204;
+  color: white;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.band-members img {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.buy {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.buy:hover {
+  background-color: transparent;;
+  color: white;
+}
+
+.contact {
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 10px;
+}
+
+.contact-header {
+  color: white;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.contact-section {
+  background-image: url('../images/lynn-square-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.copyright {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fa {
+  color: white;
+}
+
+.form {
+  color: white;
+  padding-bottom: 50px;
+}
+
+header {
+  background-image: url('../images/background.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  min-height: 600px;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+h1 {
+  font-family: 'Abel';
+  text-transform: uppercase;
+}
+
+.inner {
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+  margin-top: 14em;
+}
+
+.listen {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 80px;
+  min-width: 40%;
+  padding: 25px;
+}
+
+.listen:hover {
+  background-color: white;
+  color: black;
+}
+
+.listen:focus {
+  color: white;
+}
+
+.listen-section {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-section {
+    padding-top: 0px;
+    height: auto;
+  }
+
+  .inner {
+    margin-top: 10em;
+  }
+}
+
+.member-names {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.music {
+  color: white;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.music-section {
+  background-image: url('../images/stage.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #FFFFFF;
+}
+
+.navbar-nav>a:hover, .navbar-nav>.active>a:hover {
+  color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #030204;
+}
+
+section {
+  min-height: 600px;
+}
+
+.spotify {
+  width: auto;
+}
+
+.find-us {
+  color: white;
+}
+
+.find-us-header {
+  padding-left: 5px;
+}
+
+.social-icon {
+  padding: 5px;
+}
+
+.tour {
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 10px;
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.tour-dates {
+  width: auto;
+}
+
+.tour-dates a {
+  color: white;
+}
+
+.tour-section {
+  background-image: url('../images/lynn-square.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+}
